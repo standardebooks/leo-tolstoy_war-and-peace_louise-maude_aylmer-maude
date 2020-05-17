@@ -1,2 +1,92 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+span[epub|type~="subtitle"]{
+        display: block;
+        font-weight: normal;
+}
+
+[epub|type~="z3998:song"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:song"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:song"] + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:song"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:song"] p > span + br{
+	display: none;
+}
+
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
+}
+
+
+[epub|type~="z3998:letter"] header{
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"]{
+	text-align: left;
+}
+
+[epub|type~="z3998:salutation"] + p,
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:sender"],
+[epub|type~="z3998:recipient"],
+[epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:letter"] footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+.signature{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-indent: 0;
+	text-align: left;
+}
+
+table{
+  margin: 1em auto;
+}
+
+td:first-child{
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+blockquote > header{
+  font-variant: small-caps;
+  margin-bottom: .5em;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+[epub|type~="se:diary.dateline"]{
+  font-style: italic;
+  margin-bottom: .5em;
+  margin-top: 1em;
+}
