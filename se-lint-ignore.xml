@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-1-25.xhtml">
+		<ignore>
+			<code>t-031</code>
+			<reason>ABC is used for the name of an angle, and therefore should not contain periods.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
