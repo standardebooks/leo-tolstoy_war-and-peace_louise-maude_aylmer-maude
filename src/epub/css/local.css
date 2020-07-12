@@ -6,13 +6,6 @@ body [xml|lang]{
 	font-style: italic;
 }
 
-blockquote > header{
-  font-variant: small-caps;
-  margin-bottom: .5em;
-  text-align: center;
-  text-transform: lowercase;
-}
-
 q{
 	font-style: italic;
 	quotes: none;
@@ -23,23 +16,31 @@ q > i{
 }
 
 [epub|type~="se:diary.dateline"]{
-  font-style: italic;
-  margin-bottom: .5em;
-  margin-top: 1em;
+	font-style: italic;
+	margin-bottom: .5em;
+	margin-top: 1em;
 }
 
 span[epub|type~="subtitle"]{
-        display: block;
-        font-weight: normal;
+	display: block;
+	font-weight: normal;
 }
 
 table{
-  margin: 1em auto;
+	margin: 1em auto;
 }
 
 td:first-child{
-  font-variant-numeric: tabular-nums;
-  text-align: right;
+	font-variant-numeric: tabular-nums;
+	text-align: right;
+}
+
+/* location-specific */
+#chapter-4-2-9 blockquote > header{
+	font-variant: small-caps;
+	margin-bottom: .5em;
+	text-align: center;
+	text-transform: lowercase;
 }
 
 /* alphabet code */
@@ -86,7 +87,7 @@ dd{
 [epub|type~="z3998:dramatis-personae"] ul > li > ul > li{
 	font-style: italic;
 	font-variant: normal;
- 	margin: 1em;
+	margin: 1em;
 }
 /* end of dramatis personae */
 
@@ -97,6 +98,7 @@ dd{
 
 [epub|type~="z3998:salutation"]{
 	text-align: left;
+	text-indent: 0;
 }
 
 [epub|type~="z3998:salutation"] + p,
@@ -146,3 +148,10 @@ p span.i1{
 	padding-left: 2em;
 }
 /* end of song/verse */
+
+/* temporary for local reading */
+blockquote{
+	font-size: 93%;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
