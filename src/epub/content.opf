@@ -45,13 +45,13 @@
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">Unknown</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">The story of several families during Napoleon’s Russian War.</dc:description>
+		<dc:description id="description">The story of several families in Russia during the Napoleonic Wars.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2600</dc:source>
-		<meta property="se:production-notes">This production restores the Russian names and diminutives/patronymics that were anglicized or removed in the translation.</meta>
+		<meta property="se:production-notes">This production restores the use of Russian names (except where in French in the original) and diminutives/patronymics that were removed in the Maude translation. It also restores the original four book structure.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/War_and_Peace</meta>
@@ -59,7 +59,7 @@
 		<dc:creator id="author">Leo Tolstoy</dc:creator>
 		<meta property="file-as" refines="#author">Tolstoy, Leo</meta>
 		<meta property="se:name.person.full-name" refines="#author">Lev Nikolayevich Tolstoy</meta>
-		<meta property="alternate-script" refines="#author">Лео Толстой</meta>
+		<meta property="alternate-script" refines="#author">Лев Николаевич Толстой</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Leo_Tolstoy</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n79068416</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
