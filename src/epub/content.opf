@@ -207,7 +207,6 @@
 		<item href="text/chapter-2-2-19.xhtml" id="chapter-2-2-19.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-2-2-20.xhtml" id="chapter-2-2-20.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-2-2-21.xhtml" id="chapter-2-2-21.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/chapter-2-2-22.xhtml" id="chapter-2-2-22.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-2-3-1.xhtml" id="chapter-2-3-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-2-3-2.xhtml" id="chapter-2-3-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-2-3-3.xhtml" id="chapter-2-3-3.xhtml" media-type="application/xhtml+xml"/>
@@ -610,7 +609,6 @@
 		<itemref idref="chapter-2-2-19.xhtml"/>
 		<itemref idref="chapter-2-2-20.xhtml"/>
 		<itemref idref="chapter-2-2-21.xhtml"/>
-		<itemref idref="chapter-2-2-22.xhtml"/>
 		<itemref idref="part-2-3.xhtml"/>
 		<itemref idref="chapter-2-3-1.xhtml"/>
 		<itemref idref="chapter-2-3-2.xhtml"/>
