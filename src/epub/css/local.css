@@ -149,10 +149,3 @@ p span.i1{
 	padding-left: 2em;
 }
 /* end of song/verse */
-
-/* temporary for local reading */
-blockquote{
-	font-size: 93%;
-	margin-left: 1.5em;
-	margin-right: 1.5em;
-}
