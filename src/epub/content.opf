@@ -47,7 +47,9 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">The story of five families in Russia during the Napoleonic Wars.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Against the backdrop of the Napoleonic Wars, five aristocratic families in Russia are transformed by the vagaries of life, by war, and by the intersection of their lives with each other. Hundreds of characters populate &lt;i&gt;War and Peace&lt;/i&gt;, many of them historical persons, including Napoleon and Tsar Alexander I, and all of them come to life under &lt;a href="https://standardebooks.org/ebooks/leo-tolstoy"&gt;Tolstoy‘s&lt;/a&gt; deft hand.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;War and Peace&lt;/i&gt; is generally considered to be Tolstoy’s masterpiece, a pinnacle of Russian literature, and one of history’s great novels. Tolstoy himself refused to call it that, saying it was “not a novel, even less is it a poem, and still less a historical chronicle.” It contains elements of history, narrative, and philosophy, the latter increasing in quantity as the book moves towards its climax. Whatever it is called, it is a triumph whose breadth and depth is perhaps unmatched in literature.&lt;/p&gt;
+			&lt;p&gt;This production restores the Russian given names that were anglicized by the Maudes in their translation, the use of Russian patronymics and diminutives that they eliminated, as well as Tolstoy’s original four-book structure.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2600</dc:source>
