@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/leo-tolstoy/war-and-peace/louise-and-aylmer-maude</dc:identifier>
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/leo-tolstoy/war-and-peace/louise-maude_aylmer-maude</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
@@ -57,7 +57,7 @@
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/War_and_Peace</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/leo-tolstoy_war-and-peace_louise-and-aylmer-maude</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/leo-tolstoy_war-and-peace_louise-maude_aylmer-maude</meta>
 		<dc:creator id="author">Leo Tolstoy</dc:creator>
 		<meta property="file-as" refines="#author">Tolstoy, Leo</meta>
 		<meta property="se:name.person.full-name" refines="#author">Lev Nikolayevich Tolstoy</meta>
@@ -65,13 +65,20 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Leo_Tolstoy</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n79068416</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="translator">Louise and Aylmer Maude</dc:contributor>
-		<meta property="file-as" refines="#translator">Maude, Louise and Aylmer</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Louise_and_Aylmer_Maude</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n81139201</meta>
-		<meta property="display-seq" refines="#translator">1</meta>
-		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
+		<dc:contributor id="translator-1">Louise Maude</dc:contributor>
+		<meta property="file-as" refines="#translator-1">Maude, Aylmer</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-1">https://en.wikipedia.org/wiki/Louise_and_Aylmer_Maude</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-1">http://id.loc.gov/authorities/names/n81139201</meta>
+		<meta property="display-seq" refines="#translator-1">1</meta>
+		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
+		<meta property="role" refines="#translator-1" scheme="marc:relators">ann</meta>
+		<dc:contributor id="translator-2">Aylmer Maude</dc:contributor>
+		<meta property="file-as" refines="#translator-2">Maude, Aylmer</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/n80001480</meta>
+and Aylmer
+		<meta property="display-seq" refines="#translator-2">2</meta>
+		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
+		<meta property="role" refines="#translator-2" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">Ernest Meissonier</dc:contributor>
 		<meta property="file-as" refines="#artist">Meissonier, Ernest</meta>
 		<meta property="se:name.person.full-name" refines="#artist">Jean-Louis-Ernest Meissonier</meta>
