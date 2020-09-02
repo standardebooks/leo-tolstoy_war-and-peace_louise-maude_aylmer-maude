@@ -22,11 +22,6 @@ q i{
 	text-indent: 0;
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
-
 table{
 	margin: 1em auto;
 }
