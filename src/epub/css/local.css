@@ -93,7 +93,7 @@ dd{
 }
 
 [epub|type~="z3998:salutation"]{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
@@ -119,14 +119,14 @@ blockquote > footer{
 [epub|type~="z3998:postscript"]{
 	margin-top: 1em;
 	text-indent: 0;
-	text-align: left;
+	text-align: initial;
 }
 /* end of letter */
 
 /* song/verse */
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
@@ -141,6 +141,6 @@ p span.i1{
 /* end of song/verse */
 
 footer [epub|type~="se:letter.dateline"]{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
