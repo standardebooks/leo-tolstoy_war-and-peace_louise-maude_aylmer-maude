@@ -41,7 +41,7 @@ td:first-child{
 
 /* alphabet code */
 dl{
-	margin: 0.5em 0;
+	margin: .5em 0;
 	text-align: center;
 }
 
@@ -55,7 +55,7 @@ dl:nth-last-of-type(1){
 
 dl > div{
 	display: inline-block;
-	margin: 0 0.5em;
+	margin: 0 .5em;
 }
 
 dt,
