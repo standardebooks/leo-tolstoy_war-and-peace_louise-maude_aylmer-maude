@@ -6,4 +6,10 @@
 			<reason>ABC is used for the name of an angle, and therefore should not contain periods.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-4-4-9.xhtml">
+		<ignore>
+			<code>y-035</code>
+			<reason>Match is a whistle sound.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
