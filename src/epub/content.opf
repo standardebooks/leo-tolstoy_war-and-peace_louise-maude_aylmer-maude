@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/leo-tolstoy/war-and-peace/louise-maude_aylmer-maude</dc:identifier>
 		<dc:date>2020-07-28T21:53:09Z</dc:date>
 		<meta property="dcterms:modified">2020-07-28T21:53:09Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -44,7 +45,7 @@
 		<meta property="term" refines="#subject-4">sh2008116771</meta>
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">Unknown</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<meta id="collection-2" property="belongs-to-collection">The Guardian’s 100 Best Novels of All Time (2026)</meta>
@@ -59,57 +60,47 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2600</dc:source>
 		<dc:source>https://archive.org/details/warpeacemaudetra00tols</dc:source>
-		<meta property="se:production-notes">The Maudes in their translation anglicized several of the principal characters given names, and almost completely eliminated the use of Russian patronymics and dimunitives throughout. Those have been restored in this production. The exception is where the given names are in French in the original; I left those intact, and converted to the French spelling where it was different than what the Maudes used, to make it clear that it was French being spoken.
-
-		- In many cases, the Russian version of the names were used elsewhere in the novel. (The Maudes were very inconsistent in their anglicization, with the exception of the five families.) In those cases, I used their version of the name.
-
-		- If the names weren’t present elsewhere in Maude, I used a scan of Garnett's translation to guide me. I then standardized the spelling based on how Maude transliterated their names.
-
-		- The Maude’s use Bonaparte throughout, but Tolstoy used both Bonaparte and Buonaparte, and there are multiple discussions in the book revolving around the difference. I’ve restored Buonaparte where it was used in the original, either in French or in Russian.
-
-
- 		- I used Garnett as the starting point for the patronymics and dimunitives, but often had to refer to an original Russian scan to make final determinations.
-
-		The Maudes also changed from the original four-book structure to just 15 parts with two epilogues. This restores the original structure.</meta>
-		<meta property="se:word-count">563500</meta>
-		<meta property="se:reading-ease.flesch">69.41</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/War_and_Peace</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/leo-tolstoy_war-and-peace_louise-maude_aylmer-maude</meta>
+		<meta property="schema:wordCount">563500</meta>
+		<meta property="schema:educationalLevel">69.41</meta>
+		<link href="https://en.wikipedia.org/wiki/War_and_Peace" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/leo-tolstoy_war-and-peace_louise-maude_aylmer-maude" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Leo Tolstoy</dc:creator>
 		<meta property="file-as" refines="#author">Tolstoy, Leo</meta>
-		<meta property="se:name.person.full-name" refines="#author">Count Lev Nikolayevich Tolstoy</meta>
+		<meta property="schema:alternateName" refines="#author">Count Lev Nikolayevich Tolstoy</meta>
 		<meta property="alternate-script" refines="#author">Лев Никола́евич Толсто́й</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Leo_Tolstoy</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79068416</meta>
+		<link href="https://en.wikipedia.org/wiki/Leo_Tolstoy" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79068416.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator-1">Louise Maude</dc:contributor>
 		<meta property="file-as" refines="#translator-1">Maude, Louise</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-1">https://en.wikipedia.org/wiki/Louise_Maude</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-1">http://id.loc.gov/authorities/names/n81139201</meta>
+		<link href="https://en.wikipedia.org/wiki/Louise_Maude" refines="#translator-1" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n81139201.html" refines="#translator-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-2">Aylmer Maude</dc:contributor>
 		<meta property="file-as" refines="#translator-2">Maude, Aylmer</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-2">https://en.wikipedia.org/wiki/Aylmer_Maude</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/n80001480</meta>
+		<link href="https://en.wikipedia.org/wiki/Aylmer_Maude" refines="#translator-2" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80001480.html" refines="#translator-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Ernest Meissonier</dc:contributor>
 		<meta property="file-as" refines="#artist">Meissonier, Ernest</meta>
-		<meta property="se:name.person.full-name" refines="#artist">Jean-Louis-Ernest Meissonier</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Ernest_Meissonier</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n81033649</meta>
+		<meta property="schema:alternateName" refines="#artist">Jean-Louis-Ernest Meissonier</meta>
+		<link href="https://en.wikipedia.org/wiki/Ernest_Meissonier" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n81033649.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Anonymous</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Anonymous</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
-		<meta property="se:url.authority.nacoaf" refines="#transcriber-2">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Rice, Vince</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.brokenandsaved.com/</meta>
+		<link href="https://www.brokenandsaved.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -118,7 +109,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-2">http://www.robinwhittleton.com/</meta>
+		<link href="http://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
