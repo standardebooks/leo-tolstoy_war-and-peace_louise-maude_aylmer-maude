@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/leo-tolstoy/war-and-peace/louise-maude_aylmer-maude</dc:identifier>
 		<dc:date>2020-07-28T21:53:09Z</dc:date>
@@ -51,12 +51,12 @@
 		<meta id="collection-2" property="belongs-to-collection">The Guardian’s 100 Best Novels of All Time (2026)</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
 		<meta property="group-position" refines="#collection-2">7</meta>
-		<dc:description id="description">The story of five families in Russia during the Napoleonic Wars.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>The story of five families in Russia during the Napoleonic Wars.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;Against the backdrop of the Napoleonic Wars, five aristocratic families in Russia are transformed by the vagaries of life, by war, and by the intersection of their lives with each other. Hundreds of characters populate &lt;i&gt;War and Peace&lt;/i&gt;, many of them historical persons, including Napoleon and Tsar Alexander I, and all of them come to life under &lt;a href="https://standardebooks.org/ebooks/leo-tolstoy"&gt;Tolstoy’s&lt;/a&gt; deft hand.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;War and Peace&lt;/i&gt; is generally considered to be Tolstoy’s masterpiece, a pinnacle of Russian literature, and one of history’s great novels. Tolstoy himself refused to call it that, saying it was “not a novel, even less is it a poem, and still less a historical chronicle.” It contains elements of history, narrative, and philosophy, the latter increasing in quantity as the book moves towards its climax. Whatever it is called, it is a triumph whose breadth and depth is perhaps unmatched in literature.&lt;/p&gt;
 			&lt;p&gt;This Standard Ebooks edition restores the Russian given names that were anglicized by the Maudes in their translation, the use of Russian patronymics and diminutives that they eliminated, and Tolstoy’s original four-book structure.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2600</dc:source>
 		<dc:source>https://archive.org/details/warpeacemaudetra00tols</dc:source>
