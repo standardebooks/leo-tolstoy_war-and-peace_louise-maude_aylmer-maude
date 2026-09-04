@@ -32,9 +32,9 @@
 		<meta property="file-as" refines="#title">War and Peace</meta>
 		<dc:subject id="subject-1">Historical fiction</dc:subject>
 		<dc:subject id="subject-2">War stories</dc:subject>
-		<dc:subject id="subject-3">Napoleonic Wars, 1800-1815 -- Campaigns -- Russia -- Fiction</dc:subject>
-		<dc:subject id="subject-4">Russia -- History -- Alexander I, 1801-1825 -- Fiction</dc:subject>
-		<dc:subject id="subject-5">Aristocracy (Social class) -- Russia -- Fiction</dc:subject>
+		<dc:subject id="subject-3">Napoleonic Wars, 1800-1815--Campaigns--Russia--Fiction</dc:subject>
+		<dc:subject id="subject-4">Russia--History--Alexander I, 1801-1825--Fiction</dc:subject>
+		<dc:subject id="subject-5">Aristocracy (Social class)--Russia--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85061165</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
