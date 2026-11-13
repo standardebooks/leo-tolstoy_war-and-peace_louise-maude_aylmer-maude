@@ -75,13 +75,13 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator-1">Louise Maude</dc:contributor>
 		<meta property="file-as" refines="#translator-1">Maude, Louise</meta>
-		<link href="https://en.wikipedia.org/wiki/Louise_Maude" refines="#translator-1" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/Aylmer_and_Louise_Maude" refines="#translator-1" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n81139201.html" refines="#translator-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-2">Aylmer Maude</dc:contributor>
 		<meta property="file-as" refines="#translator-2">Maude, Aylmer</meta>
-		<link href="https://en.wikipedia.org/wiki/Aylmer_Maude" refines="#translator-2" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/Aylmer_and_Louise_Maude" refines="#translator-2" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n80001480.html" refines="#translator-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
